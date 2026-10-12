@@ -80,9 +80,15 @@ npm run dev            # http://localhost:3000
 
 More details: [`server/README.md`](server/README.md) and [`server/TELEGRAM_BOT.md`](server/TELEGRAM_BOT.md) (in Russian).
 
+## Demo data
+
+The API server runs without a database. When `DATABASE_URL` is not set, it reads and writes JSON files in `server/src/data/` (`schools.json`, `news.json` and others), so `npm run dev` works out of the box.
+
+The included `schools.json` is a snapshot of 51 schools. Names, addresses, tuition and programs are kept as they were. Contact details, staff and student information are removed or replaced with placeholders.
+
 ## Configuration
 
-Server settings live in `server/.env.example`: port and allowed origins, WhatsApp Business API credentials, LLM provider settings, SendGrid and verification-code limits. Never commit a real `.env` file.
+Server settings live in `server/.env.example`: port and allowed origins, WhatsApp Business API credentials, LLM provider settings, SendGrid and verification-code limits. To use PostgreSQL, set `DATABASE_URL`. Never commit a real `.env` file.
 
 ## Author
 
