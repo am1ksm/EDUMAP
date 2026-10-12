@@ -1,6 +1,6 @@
 # EduMap
 
-A school discovery platform for parents in Kazakhstan: search, filter and compare schools, see them on a map, get AI-assisted recommendations and send consultation requests. Live at **[edu-map.kz](https://edu-map.kz)**.
+A school discovery platform for parents in Kazakhstan: search, filter and compare schools, see them on a map, get AI-assisted recommendations and send consultation requests.
 
 Built solo by [Amirlan Smagulov](https://www.linkedin.com/in/amirlan-smagulov-075486292) as a founder and developer, using AI-assisted development.
 
