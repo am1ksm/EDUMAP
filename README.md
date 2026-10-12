@@ -24,7 +24,7 @@ Built solo by [Amirlan Smagulov](https://www.linkedin.com/in/amirlan-smagulov-07
 
 | Part | Location | Stack |
 |---|---|---|
-| Mobile app | repository root | Expo, React Native 0.81, React 19, NativeWind, React Navigation |
+| Mobile app | `app/` (Expo entry point in the repository root) | Expo, React Native 0.81, React 19, NativeWind, React Navigation |
 | Web panel | `admin-web/` | Next.js, TypeScript: registration, onboarding and admin screens |
 | School registration site | `ed/` | Next.js |
 | API server | `server/` | Node.js, Express, PostgreSQL (`pg`) |
